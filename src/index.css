@@ -1,4 +1,5 @@
 body {
+  text-align: center;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +11,76 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+html{
+  font-size: 62.5%;
+}
+.main{
+  margin: 10rem 10vh;
+  text-align: center;
+  justify-content: center;
+  min-width:20rem;
+  min-height: 50rem;
+  border: 5px solid rgba(41, 95, 36, 0.747);
+  background-color: rgb(138, 191, 207);
+  border-radius: 5rem;
+}
+input{
+  width: 30rem;
+  margin: 2rem 2rem 2rem 0rem;
+  border: 0.5rem solid rgb(40, 141, 148);
+  height: 3rem;
+}
+
+@media (min-width:767px ) and  (max-width:998px){
+  html{
+    font-size:55%;
+  }
+  input{
+    width:25rem;
+  }
+}
+@media (max-width:768px){
+  html{
+    font-size:45%;
+  }
+}
+
+@media (max-width:440px){
+  input{
+    width:15rem
+  }
+  .main{
+    margin:10vh 5vh;
+  }
+}
+
+.box{
+  border:5px solid green;
+  min-height: 60rem;
+  max-height: auto;
+}
+.plus{
+  border-radius: 50%;
+  background-color: green;
+  color:white;
+  font-size: 2rem;
+}
+.minus{
+  margin-left: 3rem;
+  font-size: 2rem;
+  border-radius: 50%;
+  background-color: rgba(132, 0, 255, 0.918);
+  color:white;
+}
+
+h1{
+  color:rgba(8, 86, 230, 0.788);
+  font-size: xx-large;
+}
+.itms{
+  font-size: 3rem;
+  color: white;
+  font-family: cursive;
 }
